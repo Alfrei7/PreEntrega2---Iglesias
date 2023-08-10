@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../JavaScript/catalogo.js"></script>
+</head>
+<body>
+
+<h1> Catalogo completo</h1>
+    <section id="productos">
+        <div class="producto">
+            <h3>Celular</h3>
+            <img class="producto-imagen" src="../media/celular.jpeg" alt="Producto">
+            <p>Precio: $100</p>
+            <button onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto">
+            <h3>Notebook</h3>
+            <img class="producto-imagen" src="../media/pcpersonal.jpeg" alt="Producto">
+            <p>Precio: $100</p>
+            <button onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto">
+            <h3>xBox</h3>
+            <img class="producto-imagen" src="../media/consolanueva.pjeg.png" alt="Producto">
+            <p>Precio: $100</p>
+            <button onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto">
+            <h3>Consola retro</h3>
+            <img class="producto-imagen" src="../media/consolaRetro.jpeg" alt="Producto">
+            <p>Precio: $100</p>
+            <button onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+        </div>
+    </section>
+    <section id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito">
+           
+        </ul>
+        <p id="total-carrito">Total: </p> 
+        <button id="boton-finalizar" onclick="finalizarCompra()">Finalizar Compra</button>
+        <button id="boton-limpiar" onclick="limpiarCarrito()">Limpiar Carrito</button>  
+        <button id="boton-guardar" onclick="guardarCarrito()">Guardar Cambios</button>
+    </section>  
+</main>
+
+<footer>
+    <p>&copy; 2023 Tienda eCommerce</p>
+</footer>
+    <script src="../JavaScript/catalogo.js"></script>
+</body>
+</html>
+
